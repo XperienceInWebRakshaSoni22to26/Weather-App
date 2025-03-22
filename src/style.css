@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #f5f5f5;
+    /* Light background */
+}
+
+
+/* Style the sub-container */
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange elements in a column */
+    align-items: center;
+    /* Center elements horizontally */
+    justify-content: center;
+    /* Center elements vertically */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Adjust as needed */
+    text-align: center;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements in a column */
+    align-items: center;
+    /* Center elements horizontally */
+    gap: 10px;
+    /* Space between input & button */
+    margin-top: 20px;
+    /* Add spacing from other elements */
+}
+
+
+/* Style the input field */
+
+.form-div input {
+    width: 250px;
+    /* Set input width */
+    padding: 10px;
+    border: 2px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+/* Style the button */
+
+.form-div button {
+    width: 150px;
+    padding: 10px;
+    background-color: #007BFF;
+    /* Blue button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+/* Hover effect */
+
+.form-div button:hover {
+    background-color: #0056b3;
+}
